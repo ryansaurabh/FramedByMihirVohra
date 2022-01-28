@@ -1,0 +1,20 @@
+.end{
+   height: 40vh;
+   width:33.33vw;
+   border-radius: 1px solid gray;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+}
+
+.jcac{
+    display: flex
+}
+
+.txt{
+    font-size: 28;
+    font-weight: 500;
+    color: white;
+    
+}

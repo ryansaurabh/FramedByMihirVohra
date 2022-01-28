@@ -1,0 +1,26 @@
+.background {
+    background-image: url("./images/imglanding.jpg"); 
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100vh; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+.logo-placing{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.navigation-text{
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    color: olivedrab;
+    font-size: 40px;
+    font-weight: bolder;
+
+}

@@ -1,0 +1,106 @@
+.grid-portfolio {
+  display: grid;
+  grid: 33vh / auto auto auto;
+  grid-gap: 1vh;
+  background-color: #000;
+}
+
+.gridbottom-portfolio {
+  display: grid;
+  grid: 33vh / auto auto;
+  grid-gap: 1vh;
+  background-color: #000;
+}
+
+.pic {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+}
+
+.grid1 {
+  background-image: url("./images/food.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid2 {
+  background-image: url("./images/product.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid3 {
+  background-image: url("./images/events.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid4 {
+  background-image: url("./images/photogallery.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid5 {
+  background-image: url("./images/fashion.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid6 {
+  background-image: url("./images/beauty.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid7 {
+  background-image: url("./images/buddha.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid8 {
+  background-image: url("./images/buddha.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-portfolio-media {
+  display: grid;
+  grid: 33vh / auto auto;
+  grid-gap: 1vh;
+  background-color: #000;
+}
