@@ -51,17 +51,99 @@ const Gallery = () => {
         <CloseIcon onClick={() => setModel(false)} />
       </div>
       <div className="gallery">
-        {images.map((item, index) => {
-          return (
+      
             <div
               className="pic"
-              key={index}
-              onClick={() => getImg(item.imgSrc)}
+              onClick={() => getImg(images[0].imgSrc)}
             >
-              <img src={item.imgSrc} style={{ width: "100%" }} />
+              <img src={images[0].imgSrc} style={{ width: "100%" }} />
             </div>
-          );
-        })}
+            <div
+              className="pic"
+              onClick={() => getImg(images[1].imgSrc)}
+            >
+              <img src={images[1].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[2].imgSrc)}
+            >
+              <img src={images[2].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[3].imgSrc)}
+            >
+              <img src={images[3].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[4].imgSrc)}
+            >
+              <img src={images[4].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[5].imgSrc)}
+            >
+              <img src={images[5].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[6].imgSrc)}
+            >
+              <img src={images[6].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[7].imgSrc)}
+            >
+              <img src={images[7].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[8].imgSrc)}
+            >
+              <img src={images[8].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[9].imgSrc)}
+            >
+              <img src={images[9].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[10].imgSrc)}
+            >
+              <img src={images[10].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[11].imgSrc)}
+            >
+              <img src={images[11].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[12].imgSrc)}
+            >
+              <img src={images[12].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[13].imgSrc)}
+            >
+              <img src={images[13].imgSrc} style={{ width: "100%" }} />
+            </div>
+            <div
+              className="pic"
+              onClick={() => getImg(images[14].imgSrc)}
+            >
+              <img src={images[14].imgSrc} style={{ width: "100%" }} />
+            </div>
+        
+ 
       </div>
     </>
   );
