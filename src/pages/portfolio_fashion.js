@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./gallery.css";
 import CloseIcon from "@mui/icons-material/Close";
 import Img1 from "./images/img1.jpeg";
-import Img2 from "./images/img2.jpeg";
+import Img2 from "./images/photogallery.png";
 import Img3 from "./images/img3.jpeg";
 import Img4 from "./images/img4.jpeg";
 import Img5 from "./images/img5.jpeg";

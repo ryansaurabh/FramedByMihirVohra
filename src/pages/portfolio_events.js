@@ -20,21 +20,21 @@ import Img15 from "./images/img15.jpeg";
 
 const Gallery = () => {
   const images = [
-    { id: 1, imgSrc: Img1 },
-    { id: 2, imgSrc: Img2 },
-    { id: 3, imgSrc: Img3 },
-    { id: 4, imgSrc: Img4 },
-    { id: 5, imgSrc: Img5 },
-    { id: 6, imgSrc: Img6 },
-    { id: 7, imgSrc: Img7 },
-    { id: 8, imgSrc: Img8 },
-    { id: 9, imgSrc: Img9 },
+    { id: 1, imgSrc: Img10},
+    { id: 2, imgSrc: Img10 },
+    { id: 3, imgSrc: Img10},
+    { id: 4, imgSrc: Img10 },
+    { id: 5, imgSrc: Img10},
+    { id: 6, imgSrc: Img10},
+    { id: 7, imgSrc: Img10},
+    { id: 8, imgSrc: Img10},
+    { id: 9, imgSrc: Img10},
     { id: 10, imgSrc: Img10 },
-    { id: 11, imgSrc: Img11 },
-    { id: 12, imgSrc: Img12 },
-    { id: 13, imgSrc: Img13 },
-    { id: 14, imgSrc: Img14 },
-    { id: 15, imgSrc: Img15 },
+    { id: 11, imgSrc: Img10 },
+    { id: 12, imgSrc: Img10 },
+    { id: 13, imgSrc: Img10 },
+    { id: 14, imgSrc: Img10 },
+    { id: 15, imgSrc: Img10 },
   ];
   const [model, setModel] = useState(false);
   const [temping, setTemping] = useState("");
