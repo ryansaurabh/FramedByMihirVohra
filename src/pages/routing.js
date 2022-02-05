@@ -1,8 +1,5 @@
 import React from 'react';
 import { BrowserRouter ,Routes, Route } from 'react-router-dom';
-
-
-import NewLanding from "./newLanding";
 import AboutPage from "./aboutPage";
 import Gallery from "./gallery";
 import Portfolio from "./portfolio";
@@ -14,6 +11,7 @@ import Pg from "./portfolio_pg";
 import Buddha from "./portfolio_buddha";
 import Buddha2 from "./portfolio_buddha2";
 import Product from "./portfolio_product";
+import Contact from './contact';
 
 export default function Routing() {
   return( 
@@ -30,6 +28,7 @@ export default function Routing() {
           <Route path="/portfolio/beauty" exact element={<Beauty/>}/>
           <Route path="/portfolio/travel" exact element={<Buddha/>}/>
           <Route path="/portfolio/landscape" exact element={<Buddha2/>}/>
+          <Route path="/ContactMe"exact element ={<Contact/>}/>
          
 
       </Routes>

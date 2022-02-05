@@ -4,6 +4,8 @@ import { AppBar, IconButton, Toolbar, Collapse } from '@material-ui/core';
 import SortIcon from '@material-ui/icons/Sort';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Link as Scroll } from 'react-scroll';
+import { Link } from "react-router-dom";
+import { fontFamily } from '@mui/system';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,6 +43,12 @@ const useStyles = makeStyles((theme) => ({
     color: '#5AFF3D',
     fontSize: '3rem',
   },
+  contact:{
+    color:'#5AFF3D',
+    fontFamily:'Nunito',
+    fontSize:'28px'
+    
+  }
 }));
 export default function Header() {
   const classes = useStyles();
@@ -56,7 +64,8 @@ export default function Header() {
             Mihir<span className={classes.colorText}>Vora</span>
           </h1>
           <IconButton>
-            <SortIcon className={classes.icon} />
+        <Link to={"./ContactMe"} style={{textDecoration:'none'}} >  <SortIcon className={classes.icon} />
+        <h1 className={classes.contact}>Contact</h1></Link>
           </IconButton>
         </Toolbar>
       </AppBar>
